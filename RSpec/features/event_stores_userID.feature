@@ -2,7 +2,7 @@
 
 Feature: event stores user ID
 	In order to be identified as the author of an event
-	As a registered user of the AAA Website
+	As a user of the AAA Website
 	I want a new  event to automatically record my ID
 	
 	Scenario: event stores my ID
