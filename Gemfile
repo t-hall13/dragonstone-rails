@@ -7,7 +7,7 @@ gem 'rails', '4.0.2'
 gem 'sqlite3'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0'
+gem 'sass-rails', '~> 4.0.1'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -33,14 +33,14 @@ group :doc do
 end
 group :development do
   gem 'sqlite3'
-  gem 'respec-rails', '2.6.1', :require => 'rspec-rails'
+  gem 'rspec-rails', '2.14.1', :require => 'rspec-rails'
   # gem 'annotate', '2.4.0'
   gem 'faker', '0.3.1'
   # gem 'test-unit'
 end
 group :test do
   gem 'sqlite3'
-  gem 'respec-rails', '2.6.1', :require => 'rspec-rails'
+  gem 'rspec-rails', '2.14.1', :require => 'rspec-rails'
    # gem 'test-unit'
    gem 'webrat', '0.7.1'
    gem 'factory_girl_rails', '1.0'
